@@ -21,7 +21,7 @@ export default function About() {
     }, 3000); // Change paragraph every 3 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [paragraphs]);
 
   return (
     <section id="about" className="lg:h-screen w-screen bg-gray-100 flex pt-16">

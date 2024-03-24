@@ -52,13 +52,13 @@ export default function Contact() {
           <h2 className="text-4xl font-bold mb-4">Contact</h2>
           <p className="text-gray-700 mb-2 flex gap-2">
             Social:
-            <a href="#">
+            <a href="/">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="#">
+            <a href="/">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
-            <a href="#">
+            <a href="/">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </p>

@@ -1,0 +1,15 @@
+/* styles.css or in your component's styles */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Add animation class to the flex container */
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
